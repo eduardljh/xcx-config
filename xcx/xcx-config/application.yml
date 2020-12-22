@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+spring:
+  profiles: dev
+  application:
+    name: xcx-config-cqrcb-dev
+
+spring:
+  profiles: test
+  application:
+    name: xcx-config-cqrcb-test
